@@ -1,0 +1,4 @@
+/* Base 스타일 작성 */
+.container {
+  box-sizing: border-box;
+}

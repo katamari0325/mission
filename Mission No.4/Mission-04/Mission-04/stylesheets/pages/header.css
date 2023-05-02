@@ -1,0 +1,350 @@
+/* 헤더 */
+.loginbar {
+  position: relative;
+  background-color: var(--color-gray-100);
+  width: 1920px;
+  height: 34px;
+  margin-top: 11px;
+}
+.loginbarlist{
+  position: absolute;
+  margin-top: 5px;
+  margin: auto;
+  display: flex;
+}
+
+li {
+  list-style: none;
+}
+
+.login {
+  order: 3;
+  width: 34px;
+  height: 14px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 120%;
+  margin-top: 9.5px;
+  margin-left: 744px;
+}
+
+.join {
+  order: 4;
+  width: 45px;
+  height: 14px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 120%;
+  margin-top: 9.5px;
+  margin-left: 8px;
+}
+
+.cs-center {
+  order: 5;
+  width: 45px;
+  height: 14px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 120%;
+  margin-top: 9.5px;
+  margin-left: 8px;
+}
+
+.coupang-play {
+  order: 1;
+  width: 56px;
+  height: 14px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 120%;
+  margin-top: 9.5px;
+  margin-left: 450px;
+}
+
+.coupang-patners {
+  order: 2;
+  width: 56px;
+  height: 14px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 120%;
+  margin-top: 9.5px;
+  margin-left: 8px;
+}
+
+.button--category {
+  grid-area: bc;
+}
+
+.btnct-img {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  left: 36.36%;
+  right: 36.36%;
+  top: 25.86%;
+  bottom: 48.28%;
+}
+
+.container {
+  width: 1020px;
+  height: 116px;
+  display: grid;
+  place-items: center;
+  grid-template-columns: 110px, 250px, 525px, 144px;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-areas:
+    "bc h s mc c"
+    "bc sc sc mc c ";
+  margin-left: 454px;
+}
+
+.button--category{
+  position: relative;
+  background-color: var(--color-blue-600);
+  width: 110px;
+  height: 116px;
+  border: none;
+}
+
+.category {
+  position: absolute;
+  width: 45px;
+  height: 14px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 120%;
+  left: 29.55%;
+  right: 29.55%;
+  top: 62.07%;
+  bottom: 25.86%;
+  color: var(--color-white);
+}
+
+.logo {
+  grid-area: h;
+  width: 176px;
+  height: 40px;
+  margin-left: 40px;
+}
+
+.blind {
+    position: absolute;
+    clip: rect(0 0 0 0);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+}
+
+.search{
+  border: 1px solid var( --color-blue-600);
+  grid-area: s;
+  width: 516px;
+  height: 40px;
+  margin-left: 30px;
+}
+
+select {
+  width: 135px;
+  height: 38px; 
+  appearance: none;
+  border: none;
+}
+
+.svg {
+  position: absolute;
+  left: 904px;
+}
+
+.searchlist {
+  position: absolute;
+  height: 38px;
+  width: 310px;
+  border: none;
+
+}
+
+input::-webkit-input-placeholder {
+  font-size: 12px;
+  color: var(--color-gray-600);
+}
+
+.mic {
+  float: right;
+  width: 40px;
+  height: 40px;
+}
+
+.search-img {
+  float: right;
+  width: 40px;
+  height: 40px; 
+}
+
+.myCoupang{
+  position: relative;
+  grid-area: mc;
+}
+
+.mycp-btn {
+  width: 45.47px;
+  height: 58px;
+  margin-top: 29px;
+  border: none;
+  background-color: transparent;
+}
+.mycp-img {
+  position: absolute;
+  background-image: url(../../assets/icon/my-coupang.svg);
+  width: 30px;
+  height: 30px;
+  left: 46.5px;
+  top: 0px;
+  border: none;
+}
+
+.mycp-font {
+  position: absolute;
+  width: 45px;
+  height: 14px;
+  font-size: 12px;
+  top: 41px;
+  left: 38px;
+}
+
+.is--active {
+  display: none;
+  text-align: center;
+  width: 90px;
+  height: 137px;
+}
+
+.cart--empty {
+  display: none;
+  position: absolute;
+  width: 288px;
+  height: 99px;
+}
+
+.cart{
+  position: relative;
+  grid-area: c;
+  margin-left: 13px;
+}
+
+.ct-btn {
+  width: 45.47px;
+  height: 58px;
+  margin-top: 29px;
+  border: none;
+  background-color: transparent;
+}
+
+.ct-img{
+  position: absolute;
+  background-image: url(../../assets/icon/cart.svg);
+  width: 30px;
+  height: 30px;
+  top: 0px;
+  left: 28px;
+}
+
+.catrqty {
+  position: absolute;
+  background-color: var(--color-blue-600);
+  color: var(--color-white);
+  width: 18px;
+  height: 18px;
+  font-size: 12px;
+  top: -5px;
+  left: 45px;
+  border-radius: 100%;
+  padding-top: 2px;
+}
+
+.ct-font {
+  position: absolute;
+  width: 45px;
+  height: 14px;
+  font-size: 12px;
+  top: 41px;
+  left: 20px;
+}
+
+.shortuts{
+  grid-area: sc;
+  width: 755px;
+  height: 26px;
+  font-size: 12px;
+}
+
+.rocket-delivery {
+  display: inline-block;
+  width: 63px;
+  height: 14px;
+  margin-right: 26px;
+}
+.rocket-fresh {
+  display: inline-block;
+  width: 74px;
+  height: 14px;
+  margin-right: 26px;
+}
+
+.seollal2022 {
+  display: inline-block;
+  width: 80px;
+  height: 14px;
+  left: 811px;
+  margin-right: 26px;
+}
+
+.coupang-global {
+  display: inline-block;
+  width: 45px;
+  height: 14px;
+  margin-right: 26px;
+}
+
+.goldbox {
+  display: inline-block;
+  width: 45px;
+  height: 14px;
+  margin-right: 26px;
+}
+
+.regular-delivery {
+  display: inline-block;
+  width: 45px;
+  height: 14px;
+  margin-right: 20px;
+}
+
+.event-coupon {
+  display: inline-block;
+  width: 60px;
+  height: 14px;
+  margin-right: 26px;
+}
+
+.special-exhibition {
+  display: inline-block;
+  width: 34px;
+  height: 14px;
+  margin-right: 26px;
+}
+
+.travel {
+  display: inline-block;
+  width: 45px;
+  height: 14px;
+}
+
+.alert-box{
+  background-color: skyblue;  
+  padding: 20px;
+  color: white;
+  border-radius: 5px;
+  display: none;
+}

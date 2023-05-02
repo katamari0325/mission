@@ -1,0 +1,153 @@
+/* 오늘의 쇼핑 제안 */
+.main {
+  margin: auto;
+  width: 1028px;
+}
+
+h1 img {
+  width: 176px;
+  height: 40px;
+}
+
+h2 {
+  position: relative;
+  font-size: 24px;
+  background-image: url(../../assets/icon/shopping.svg);
+  background-position: 0px;
+  width: 30px;
+  height: 30px;
+}
+
+.today {
+  position: absolute;
+  width: 168px;
+  height: 28px;
+  left: 30px;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 115%;
+}
+
+.container {
+  display: flex;
+}
+
+.item {
+  position: relative;
+  text-align: center;
+  width: 200px;
+  height: 270px;
+  padding-top: 14px;
+}
+
+.discount {
+  position: absolute;
+  width: 53px;
+  height: 30px;
+  left: 0px;
+  top: 0px;
+  background-color: var(--color-red-500);
+  border-radius: 0px 0px 4px 0px;
+  padding: 3px 10px;
+  gap: 10px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 150%;
+  color: var(--color-white);
+}
+
+.furniture {
+  margin-right: 5px;
+}
+
+.renton {
+  margin-right: 5px;
+}
+
+.drying-rack{
+  margin-right: 5px;
+}
+
+.boohgle {
+  margin-right: 5px;
+}
+
+.item-info {
+  position: relative;
+}
+
+.title {
+  margin-top: 12px;
+  width: 172px;
+  height: 17px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 120%;
+}
+
+.free {
+  position: absolute;
+  width: 52px;
+  height: 17px;
+  left: 0px;
+  top: 29px;
+  color: var(--color-gray-700);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 120%;
+}
+
+.rocket {
+  position: absolute;
+  width: 55px;
+  height: 16px;
+  left: 0px;
+  top: 29px;
+}
+
+.rating-stars {
+  position: relative;
+  background-image: url(../../assets/sprites/rating-stars.png);
+  width: 68px;
+  height: 12px;
+}
+
+.furniture-s {
+  position: absolute;
+  background-position: 0px 12px;
+  left: 0px;
+  top: 29px;
+}
+
+.renton-s {
+  background-position: 0px 26px;
+  left: 0px;
+  top: 49px;
+}
+
+.drying-rack-s {
+  background-position: 0px 40px;
+  left: 0px;
+  top: 50px;
+}
+
+.boohgle-s {
+  background-position: 0px 12px;
+  left: 0px;
+  top: 49px;
+}
+
+.deskset-s {
+  background-position: 0px 40px;
+  left: 0px;
+  top: 50px;
+}
+
+.review {
+  position: absolute;
+  left: 72px;
+  color: var(--color-gray-700);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 120%;
+  }

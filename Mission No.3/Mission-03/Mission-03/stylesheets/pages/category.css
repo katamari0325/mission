@@ -1,0 +1,249 @@
+/* 카테고리별 추천 광고상품 */
+.main {
+  margin: auto;
+  width: 1028px;
+}
+
+h3 {
+  margin: 48px 61px 8px 24px;
+}
+
+.hot1{
+  display: block;
+  font-size: 16px;
+}
+
+.hot2{
+  font-size: 24px;
+}
+
+.hot3{
+  margin-left: 10px;
+  font-size: 24px;
+  color: var(--color-blue-600);
+}
+.household-goods {
+  display: flex;
+  border-top: 1.17px solid var(--color-brown-300);
+  border-bottom: 1.17px solid var(--color-brown-300);
+}
+
+.hg-title {
+  color: var(--color-brown-300);
+}
+
+.kitchen-goods {
+  display: flex;
+  border-top: 1.17px solid var(--color-green-700);
+  border-bottom: 1.17px solid var(--color-green-700);
+  margin-top: 24px;
+  margin-bottom: 434px;
+}
+
+.kg-title {
+  color: var(--color-green-700);
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+}
+.shortcut {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 120%;
+  color: var(--color-gray-700);
+  text-decoration: none;
+  margin-left: 24px;
+}
+
+.hot-keyword {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 115%;
+  margin-left: 24px;
+  margin-top: 248px;
+  margin-bottom: 8px;
+}
+
+.hashtag1 {
+  border: 1px solid var(--color-gray-400);
+  color: var(--color-brown-300);
+  font-size: 12px;
+  height: 26px;
+  margin-top: 12px;
+  margin-left: 24px;
+  padding-left: 10px; 
+  padding-top: 6px;
+}
+
+.bodyoil {
+  width: 72px;  
+}
+
+.detergent {
+  width: 72px;  
+}
+
+.diffuser {
+  width: 94px;
+  height: 26px;
+}
+
+.wet-tissue {
+  width: 94px;
+}
+
+.shampoo {
+  width: 94px;
+}
+
+.kitchen-towel {
+  width: 117px;
+}
+
+.hashtag2 {
+  border: 1px solid var(--color-gray-400);
+  color: var(--color-green-700);
+  font-size: 12px;
+  height: 26px;
+  margin-top: 12px;
+  margin-left: 24px;
+  padding-left: 10px; 
+  padding-top: 6px;
+}
+
+.nitrile-gloves {
+  width: 83px;
+}
+
+.cereal-dispenser {
+  width: 106px;
+}
+
+.waffle-pen {
+  width: 61px;
+}
+
+.tumbler {
+  width: 61px;
+}
+
+.spice-stick {
+  width: 61px;
+}
+
+.scourer {
+  width: 61px;
+}
+
+.blind {
+  display: none;
+}
+
+.carousel {
+  position: relative;
+}
+
+.banner {
+  position: absolute;
+  width: 260px;
+  height: 90px;
+  left: 30px;
+  top: 483px;
+  background-color: var(--color-brown-300);
+}
+
+.banner2 {
+  position: absolute;
+  width: 260px;
+  height: 90px;
+  left: 30px;
+  top: 483px;
+  background-color: var(--color-green-700);
+}
+
+.bnft1 {
+  margin-top: 19px;
+  text-align: center;
+  font-size: 18px;
+  color: var(--color-white);
+}
+
+.bnft2 {
+  margin-top: 8px;
+  text-align: center;
+  font-size: 14px;
+  color: var(--color-white);
+}
+
+.indicator {
+  position: absolute;
+  width: 100%;
+  bottom: 22px;
+  text-align: center; 
+}
+
+.indicator a {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  background: var(--color-gray-600);                       
+  border-radius: 14px;
+  margin-right: 8px
+}
+
+.indicator a.on {
+  background: var(--color-gray-700); 
+}
+
+.itembox {
+  display: flex;
+  flex-direction: column;
+}
+
+.itemlist {
+  display: flex;
+}
+
+.itemtitle {
+font-size: 14px;
+margin-bottom: 12px;
+}
+
+.discount {
+  font-size: 14px;
+  color: var(--color-red-500);
+  margin-bottom: 4px;
+}
+
+.item {
+  width: 160px;
+  height: 300px;
+  margin-left: 16px;
+  margin-top: 9px;
+}
+
+.price {
+  font-weight: 700;
+  font-size: 18px;
+  display: inline-block;
+}
+
+.price::after {
+  content: ' 원';
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.rocket {
+  margin-left: 6px;
+}
+
+.bd::after {
+  display: block;
+  border: 0.5px solid var(--color-gray-600);
+  content: "";
+  margin-top: 8px;
+}
+
